@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasi GitHub</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: crimson;
+      position: relative;
+      animation: move 3s infinite alternate ease-in-out;
+    }
+
+    @keyframes move {
+      from { left: 0; }
+      to { left: 200px; }
+    }
+  </style>
+</head>
+<body>
+  <h2>Animasi di Web dengan GitHub</h2>
+  <div class="box"></div>
+</body>
+</html>
